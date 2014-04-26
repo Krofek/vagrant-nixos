@@ -9,5 +9,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
         v.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
     end
     config.vm.network :forwarded_port, guest: 80, host: 10000
+    config.vm.network :private_network, type: :dhcp
     config.vm.provision :shell, :path => "bootstrap.sh"
 end
