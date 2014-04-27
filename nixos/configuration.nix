@@ -12,6 +12,7 @@
     environment.systemPackages = with pkgs; [
         git
         vim
+        python2.7
         ];
 
     services = {
