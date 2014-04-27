@@ -18,19 +18,16 @@ Setting up the box:
 ------------------
 
 Install the vagrant-nixos plugin, else there might be quiet a few error while configuring the box with vagrant:
-
 ```bash
 vagrant plugin install vagrant-nixos
 ```
 
 Build the box using packer:
-
 ```bash
 packer build nixos.json
 ```
 
 Add the box and run vagrant:
-
 ```bash
 vagrant box add nixos nixos-virtualbox.box
 vagrant up
