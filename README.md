@@ -1,6 +1,8 @@
 Vagrant-nixos
 ============
 
+Needed packeges: [Packer](http://packer.io), [Vagrant](http://vagrantup.com) and [vagrant-nixos](http://github.com/oxdi/vagrant-nixos).
+
 The scripts are based on [oxdi/nixos](https://github.com/oxdi/nixos):
 
 Still a work in progress...
