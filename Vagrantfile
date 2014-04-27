@@ -1,7 +1,6 @@
-# -*- mode: ruby -*-
-# vi: set ft=ruby :
+# comment placeholder :P
+#
 
-# Vagrantfile API/syntax version. Don't touch unless you know what you're doing!
 Vagrant.configure("2") do |config|
     config.vm.box = "nixos"
 
