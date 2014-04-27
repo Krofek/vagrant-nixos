@@ -15,7 +15,7 @@ The nixos configuration file is set to install a few basic things (vim, git, pyt
 
 
 Setting up the box:
-____________
+------------------
 
 
 ```bash
