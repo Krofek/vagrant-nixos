@@ -19,7 +19,7 @@ The nixos configuration file is set to install a few basic things (vim, git, pyt
 Setting up the box:
 ------------------
 
-Install the vagrant-nixos plugin, else there might be quiet a few error while configuring the box with vagrant:
+Install the vagrant-nixos plugin, else there might be quiet a few error while configuring the VM with vagrant:
 ```bash
 vagrant plugin install vagrant-nixos
 ```
