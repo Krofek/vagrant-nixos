@@ -29,9 +29,14 @@ Build the box using packer:
 packer build nixos.json
 ```
 
-Add the box and run vagrant
+Add the box and run vagrant:
 
 ```bash
 vagrant box add nixos nixos-virtualbox.box
 vagrant up
+```
+
+Connect to the VM:
+```bash
+vagrant ssh
 ```
